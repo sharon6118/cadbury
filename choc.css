@@ -1,0 +1,104 @@
+.bg-color{
+    background-image: url("c:\Users\Placement\Downloads\x720.jpg");
+    background-size: cover;
+    
+    
+}header{
+    background-color: rgb(66, 43, 122);
+    display: flex;
+    height: 100px;
+}
+
+.a{
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 130px;
+    padding: 10px;
+}
+.a:hover{
+    background-color: red;
+}
+#grid{
+    display: flex;
+    
+}
+h2{
+    text-align: center;
+    color: rgb(252, 27, 7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.img1 img{
+    padding: 5px;
+    padding-left:200px;
+    border-radius: 10%;
+}
+.para1{
+    padding: 5px;
+    padding-top:20px;
+    font-size: 20px;
+}
+.grid1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 40px;
+    
+}
+#vdo{
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#vdo .slide{
+    display: inline-block;
+}
+
+form{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10%;
+    margin-left: 200px;
+    
+}
+.inputbox{
+    padding: 20px;
+}
+label{
+    color: aqua;
+}
+.btn input{
+    background-color: aquamarine;
+}
+.btn input:hover{
+    background-color: chartreuse;
+}
+.cr{
+    display: flex;
+    margin-left: 100px;
+    
+}
+.last a{
+    color:sandybrown;
+    padding: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.last{
+    margin-left: 120px;
+}
+footer{
+    padding: 30px;
+    background-color: black;
+    margin-top: 30px;
+}
